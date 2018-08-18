@@ -12,7 +12,11 @@ Verison History:
 
 body
 {
-        font-family: 'Muli', sans-serif;
+
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     background-color:#314556;
+
+
 }
 
 /* Sets the background image for the wheel */
