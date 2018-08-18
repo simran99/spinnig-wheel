@@ -12,7 +12,7 @@ Verison History:
 
 body
 {
-     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: 'Muli', sans-serif;
 }
 
 /* Sets the background image for the wheel */
@@ -24,9 +24,18 @@ td.the_wheel
 }
 
 /* Do some css reset on selected elements */
-h1, p
+h1{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 60px;
+
+}
+p
 {
     margin: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+
 }
 
 div.power_controls
