@@ -17,6 +17,7 @@ body
      background-color:#314556;
 
 
+
 }
 
 /* Sets the background image for the wheel */
@@ -32,6 +33,7 @@ h1{
     margin: 0;
     font-family: 'Muli', sans-serif;
     font-size: 60px;
+    color:white;
 
 }
 p
@@ -39,7 +41,7 @@ p
     margin: 0;
     font-family: 'Muli', sans-serif;
     font-size: 40px;
-
+    color: #fde9e2;
 }
 
 div.power_controls
@@ -69,17 +71,17 @@ table.power th
 
 td.pw1
 {
-    background-color: #6fe8f0;
+    background-color:   #e1eae9;
 }
 
 td.pw2
 {
-    background-color: #86ef6f;
+    background-color: #c3d6d2;
 }
 
 td.pw3
 {
-    background-color: #ef6f6f;
+    background-color:   #b9d0ca;
 }
 
 /* Style applied to the spin button once a power has been selected */

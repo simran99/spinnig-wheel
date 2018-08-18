@@ -52,12 +52,12 @@
                         <div class="power_controls">
                             <br />
                             <br />
-                            <table class="power" cellpadding="10" cellspacing="0">
+                            <table class="power" cellpadding="20" cellspacing="0">
                                 <tr>
                                     <th align="center">Power</th>
                                 </tr>
                                 <tr>
-                                    <td width="78" align="center" id="pw3" onClick="powerSelected(3);">High</td>
+                                    <td width="100" align="center" id="pw3" onClick="powerSelected(3);">High</td>
                                 </tr>
                                 <tr>
                                     <td align="center" id="pw2" onClick="powerSelected(2);">Med</td>
@@ -69,7 +69,7 @@
                             <br />
                             <img id="spin_button" src="spin_off.png" alt="Spin" onClick="startSpin();" />
                             <br /><br />
-                           <button type="button" class="btn btn-default"><a href="#" onClick="resetWheel(); return false;" style="font-size: 30px; text-align: center;">Play Again</a><br /></button> 
+                           <button type="button" class="btn btn-default"><a href="#" onClick="resetWheel(); return false;" style="font-size: 30px; text-align: center; padding:20">Play Again</a><br /></button> 
                         </div>
                     </td>
                     <td width="438" height="582" class="the_wheel" align="center" valign="center">
@@ -207,7 +207,7 @@
                     }
 
                     // Disable the spin button so can't click again while wheel is spinning.
-                    document.getElementById('spin_button').src       = "spin_off.png";
+                    document.getElementById('spin_button').src  = "spin_off.png";
                     document.getElementById('spin_button').className = "";
 
                     // Begin the spin animation by calling startAnimation on the wheel object.
