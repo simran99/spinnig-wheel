@@ -20,6 +20,13 @@ body
 
 }
 
+#logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+     position:relative;
+}
+
 /* Sets the background image for the wheel */
 td.the_wheel
 {  
@@ -29,17 +36,19 @@ td.the_wheel
 }
 
 /* Do some css reset on selected elements */
-h1{
-    margin: 0;
+h1{ position: absolute;
+    text-align: center;
+    top: 0;
     font-family: 'Muli', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     color:white;
+    margin-left: 350px;
 
 }
 p
-{
-    margin: 0;
-    font-family: 'Muli', sans-serif;
+{  position: relative;
+    margin-top: 10px;
+    font-family: 'Handlee', cursive;
     font-size: 40px;
     color: #fde9e2;
 }
