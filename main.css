@@ -40,16 +40,16 @@ h1{ position: absolute;
     text-align: center;
     top: 0;
     font-family: 'Muli', sans-serif;
-    font-size: 80px;
+    font-size: 5vw;
     color:white;
     margin-left: 350px;
 
 }
-p
-{  position: relative;
+
+p{  position: relative;
     margin-top: 10px;
     font-family: 'Handlee', cursive;
-    font-size: 40px;
+    font-size: 4vw;
     color: #fde9e2;
 }
 
@@ -110,4 +110,9 @@ td.pw3
 .but:hover {
      background-color:#78a4d3;
      color:black;
+}
+@media only screen (max-width:500px ){
+    h1{
+        font-size: 2vw;
+    }
 }
